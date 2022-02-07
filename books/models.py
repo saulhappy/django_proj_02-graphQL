@@ -1,6 +1,6 @@
 from django.db import models
 
-class Books(models.Models):
+class Books(models.Model):
     title=models.CharField(max_length=140)
     excerpt=models.TextField()
 
